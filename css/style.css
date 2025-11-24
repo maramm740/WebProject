@@ -1,0 +1,84 @@
+body {
+    font-family: "Tajawal", sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-bar {
+    width: 100%;
+    padding: 15px;
+    text-align: right;
+}
+
+.lang-btn {
+    background: #0b5c5c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #0a5252;
+    font-size: 28px;
+}
+
+.main-btn {
+    background: #d5a320;
+    color: white;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.main-btn img {
+    width: 22px;
+    margin-left: 7px;
+}
+
+.form-box {
+    width: 330px;
+    margin: 25px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    display: none;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.send-btn {
+    background: #0b5c5c;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.thanks-box {
+    width: 280px;
+    margin: 20px auto;
+    background: #dbdbdb;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+    font-size: 16px;
+}
