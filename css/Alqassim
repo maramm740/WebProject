@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#qassim-landmarks {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.landmark, .event-details {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.landmark:hover, .event-details:hover {
+    transform: scale(1.05);
+}
+
+.landmark img, .event-details img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.landmark h3, .event-details h3 {
+    color: #8B4513;
+    font-size: 1.5em;
+}
+
+.landmark p, .event-details p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6B3E2E;
+}
+
+.more-info {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
