@@ -3,48 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landmarks of Qassim</title>
+    <title>Landmarks and Festivals of Qassim</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Landmarks of Qassim</h1>
+        <h1>Landmarks and Festivals of Qassim</h1>
     </header>
 
-    <section id="intro">
-        <p>Qassim is one of the most beautiful tourist regions in Saudi Arabia. It contains many natural and historical landmarks that attract visitors.</p>
+    <section id="qassim-landmarks">
+        <h2>Landmarks of Qassim</h2>
+        
+        <section class="landmark">
+            <h3>Buraidah City</h3>
+            <p>Buraidah is the administrative capital of Qassim, containing landmarks such as the historic Souq Al-Masouq and Buraidah Museum.</p>
+            <button onclick="showMore('buraidah')">Read More</button>
+            <div id="buraidah" class="more-info" style="display:none;">
+                <p>Buraidah is an important cultural and commercial center in the Kingdom, featuring modern landmarks like King Abdullah Cultural Center and prominent shopping areas.</p>
+            </div>
+        </section>
+
+        <section class="landmark">
+            <h3>Al-Rass</h3>
+            <p>Al-Rass is a historical city with a beautiful geographical location, featuring natural sites such as Wadi Al-Rama.</p>
+            <button onclick="showMore('alrass')">Read More</button>
+            <div id="alrass" class="more-info" style="display:none;">
+                <p>Al-Rass is one of the oldest cities in Qassim, known for its history in agriculture. It has a strategic location with many tourist attractions like natural sites and recreational areas.</p>
+            </div>
+        </section>
+
+        <section class="landmark">
+            <h3>Al-Osayhah</h3>
+            <p>Al-Osayhah features sand dunes and is a great destination for desert activities like camel riding and camping.</p>
+            <button onclick="showMore('alosayhah')">Read More</button>
+            <div id="alosayhah" class="more-info" style="display:none;">
+                <p>Al-Osayhah is one of the most important tourist destinations in Qassim, offering desert activities, camping among sand dunes, and beautiful natural views.</p>
+            </div>
+        </section>
     </section>
 
-    <section class="landmark">
-        <h2>Buraidah City</h2>
-        <p>Buraidah is the administrative capital of Qassim. It contains many landmarks such as the historic Souq Al-Masouq and Buraidah Museum.</p>
-        <button onclick="showMore('breida')">Read More</button>
-        <div id="breida" class="more-info" style="display:none;">
-            <p>Buraidah is an important cultural and commercial center in the Kingdom, and it contains many modern landmarks such as King Abdullah Cultural Center and prominent shopping areas.</p>
+    <section id="buraidah-festival">
+        <h2>Buraidah Date Festival</h2>
+        
+        <section class="event-details">
+            <h3>About the Festival</h3>
+            <p>The Buraidah Date Festival is an important cultural and commercial event in Saudi Arabia, held annually in Buraidah, attracting thousands of visitors to celebrate dates and their products.</p>
+        </section>
+
+        <section class="event-details">
+            <h3>Types of Dates on Display</h3>
+            <ul>
+                <li>Succary</li>
+                <li>Khalas</li>
+                <li>Bari</li>
+                <li>Ajwa</li>
+            </ul>
+        </section>
+
+        <section class="event-details">
+            <h3>Festival Activities</h3>
+            <ul>
+                <li>Educational workshops on date production</li>
+                <li>Cultural and artistic performances</li>
+                <li>Competitions for visitors</li>
+                <li>Exhibitions of local date products</li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="al-shanana">
+        <h2>Al-Shanana Tower</h2>
+        <p>Al-Shanana Tower is one of the most famous historical landmarks in Qassim. Located in the village of Al-Shanana in the Al-Badae'a governorate, it is a significant symbol of the region's heritage.</p>
+        <button onclick="showMore('alshanana')">Read More</button>
+        <div id="alshanana" class="more-info" style="display:none;">
+            <p>The tower was built in ancient times for surveillance and defense purposes, providing protection to surrounding villages and playing an important role in the region's security.</p>
         </div>
     </section>
 
-    <section class="landmark">
-        <h2>Al-Rass</h2>
-        <p>Al-Rass is a historical city with a beautiful geographical location and many natural sites such as Wadi Al-Rama.</p>
-        <button onclick="showMore('alras')">Read More</button>
-        <div id="alras" class="more-info" style="display:none;">
-            <p>Al-Rass is one of the oldest cities in Qassim and has a long history in agriculture. It is known for its strategic location and the many tourist attractions like natural sites and recreational areas.</p>
-        </div>
-    </section>
-
-    <section class="landmark">
-        <h2>Al-Osayhah</h2>
-        <p>Al-Osayhah features sand dunes and is a great destination for desert activities like camel riding and camping.</p>
-        <button onclick="showMore('alsyah')">Read More</button>
-        <div id="alsyah" class="more-info" style="display:none;">
-            <p>Al-Osayhah is one of the most important tourist destinations in Qassim, where visitors can enjoy desert activities and camping among the wide sand dunes, as well as stunning natural views.</p>
+    <section id="al-muthnib-village">
+        <h2>Al-Muthnib Heritage Village</h2>
+        <p>Al-Muthnib Heritage Village is one of the oldest heritage sites in Qassim.It showcases the traditional way of life in Saudi Arabia, with old mud-brick houses and cultural landmarks.</p>
+        <button onclick="showMore('almuthnib')">Read More</button>
+        <div id="almuthnib" class="more-info" style="display:none;">
+            <p>The village is an excellent example of traditional Saudi architecture and lifestyle. Visitors can explore old homes, historical structures, and experience the authentic culture of the region.</p>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Landmarks of Qassim</p>
+        <p>&copy; 2025 Landmarks and Festivals of Qassim</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
