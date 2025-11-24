@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>آراء الزوار</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <button class="lang-btn" onclick="switchLang()">English</button>
+</div>
+
+<h2 id="title">آراء الزوار</h2>
+
+<button class="main-btn" onclick="openForm()">
+    <img src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png">
+    <span id="main-btn-text">شاركنا تجربتك</span>
+</button>
+
+<div class="form-box" id="form">
+    <form action="submit.php" method="POST">
+        <input name="name" type="text" placeholder="الاسم (إجباري)" required>
+        <input name="phone" type="text" placeholder="رقم التواصل (إجباري)" required>
+        <textarea name="comment" placeholder="تعليقك" rows="4"></textarea>
+        <button class="send-btn" type="submit">إرسال</button>
+    </form>
+</div>
+
+<div class="thanks-box" id="thanks">شكراً لك على مشاركتك ♥</div>
+
+<script src="script.js"></script>
+</body>
+</html>
