@@ -76,17 +76,17 @@ body {
     font-weight: bold;
 }
 
-/* اللون الذي يبقى بعد الضغط (تغيير دائم بالنقر) */
+
 .active {
     color: #b08b23 !important;
 }
 
-/* ✨ تأثير مرور الماوس فقط */
+
 .clickable:hover {
     color: #8a6d1c !important;
 }
 
-/* التفاصيل */
+
 .details {
     display: none;
     margin-top: 15px;
@@ -101,4 +101,5 @@ body {
     margin-top: 10px;
     font-size: 18px;
     color: #b08b23;
+
 }
