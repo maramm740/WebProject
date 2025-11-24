@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmarks of Qassim</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Landmarks of Qassim</h1>
+    </header>
+
+    <section id="intro">
+        <p>Qassim is one of the most beautiful tourist regions in Saudi Arabia. It contains many natural and historical landmarks that attract visitors.</p>
+    </section>
+
+    <section class="landmark">
+        <h2>Buraidah City</h2>
+        <p>Buraidah is the administrative capital of Qassim. It contains many landmarks such as the historic Souq Al-Masouq and Buraidah Museum.</p>
+        <button onclick="showMore('breida')">Read More</button>
+        <div id="breida" class="more-info" style="display:none;">
+            <p>Buraidah is an important cultural and commercial center in the Kingdom, and it contains many modern landmarks such as King Abdullah Cultural Center and prominent shopping areas.</p>
+        </div>
+    </section>
+
+    <section class="landmark">
+        <h2>Al-Rass</h2>
+        <p>Al-Rass is a historical city with a beautiful geographical location and many natural sites such as Wadi Al-Rama.</p>
+        <button onclick="showMore('alras')">Read More</button>
+        <div id="alras" class="more-info" style="display:none;">
+            <p>Al-Rass is one of the oldest cities in Qassim and has a long history in agriculture. It is known for its strategic location and the many tourist attractions like natural sites and recreational areas.</p>
+        </div>
+    </section>
+
+    <section class="landmark">
+        <h2>Al-Osayhah</h2>
+        <p>Al-Osayhah features sand dunes and is a great destination for desert activities like camel riding and camping.</p>
+        <button onclick="showMore('alsyah')">Read More</button>
+        <div id="alsyah" class="more-info" style="display:none;">
+            <p>Al-Osayhah is one of the most important tourist destinations in Qassim, where visitors can enjoy desert activities and camping among the wide sand dunes, as well as stunning natural views.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Landmarks of Qassim</p>
+    </footer>
+</body>
+</html>
