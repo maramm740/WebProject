@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مطاعم وكوفيهات موصى بها</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="page-title">مطاعم وكوفيهات موصى بها</h1>
+
+    <section class="cards">
+      <article class="card">
+        <div class="card-media">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzBe6uCEo0MG3aBDTPXDhpSe48Uu2tHPkuERJRAyXZuqEkEP6Vvd5HKTDNRbRti07djFA3ck7t0OIQd1boX-1iagBAsSlq6ZEyoO4PSFQzQQgLBw0uTouwGntd2g7F4npNI46ETu8keGVk=s416-w332-h416-n-k-no" alt="كوفى" />
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">يول كوفي</h2>
+          <p class="card-desc">كوفي مميز بأجواء عصرية وقهوة مختصة</p>
+          <div class="card-meta">
+            <span class="chip">قهوة مختصة</span>
+            <span class="price">$</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyZJUDYhJb6jHfNNrLW_4HNT5Ph92AByJTux1J3a05tm9XTg6Vt55tfPw7S8D8KJ8nJ1jfqG_0Iu4cWnbPkt6q-1uqO5l5vOI5GvEIMzxUf041ziRMdvWyruii8IQ2mD4Hz-Xr22A=s520-w520-h416-n-k-no" alt="لوريت" />
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">لوريت</h2>
+          <p class="card-desc">مطعم يعطيك تجربة أكلات إيطالية بمحافظة الرس</p>
+          <div class="card-meta">
+            <span class="chip">مأكولات إيطالية</span>
+            <span class="price">$</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzagBjH2I0yzcwdesSQwEXgt-4VrNdVqg4Gm4uXlPHZt7_0ZhJy1QxgigbH8qANaul3WrvI49DbfIYMMD_cZL2_kMsoag-R4Q3L7bxO-LgSdLZSNLoI4wbGHcj777BJBYTydUEmm1NhU2mB=w367-h612-n-k-no-nu" alt="La Doucur" />
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">LA DOUCUR</h2>
+          <p class="card-desc">مطعم وكافيه يقدم أطباق عالمية ومشروبات مميزة</p>
+          <div class="card-meta">
+            <span class="chip">مأكولات إيطالية</span>
+            <span class="price">$</span>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="إغلاق">✕</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
