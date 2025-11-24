@@ -1,0 +1,32 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = Array.from(document.querySelectorAll('.card'));
+  const modal = document.getElementById('modal');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalDesc = document.getElementById('modalDesc');
+  const modalClose = document.getElementById('modalClose');
+
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      const title = card.querySelector('.card-title')?.textContent || '';
+      const desc = card.querySelector('.card-desc')?.textContent || '';
+      modalTitle.textContent = title;
+      modalDesc.textContent = desc;
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') closeModal();
+  });
+
+  function closeModal(){
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+});
